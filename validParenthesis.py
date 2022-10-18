@@ -1,4 +1,16 @@
+'''
+https://leetcode.com/problems/valid-parentheses/
+'''
+
 def isValid(s):
+    """function checking for valid parenthesis
+
+    Args:
+        s (string): eg: '[]', ']][['
+
+    Returns:
+        boolean: func returns True if all parenthesis are valid, else False
+    """
     
     strings = {'(':')', '{':'}', '[':']'}
 
@@ -10,7 +22,7 @@ def isValid(s):
         elif stack_list == [] or open != strings[stack_list.pop()]:
             return False
 
-    return stack_list == []
+    return stack_list
 
 
 

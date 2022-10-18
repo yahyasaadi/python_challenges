@@ -15,10 +15,5 @@ print(solution([1, 3, 6, 4, 1, 2]))
 print(solution([40, 89, 90, 105]))
 print(solution([1, 2, 3]))
 print(solution([-1, -2, -3]))
+print(solution([1, 2, 3, 4, 5, 6, 8, 9]))
 
-# a = [-1, -2]
-# # print(len(a))
-# len_of_list = len(a)
-# for i in range(1, len_of_list + 2):
-#     if i not in a:
-#         print(i)
